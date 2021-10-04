@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avergent-Regular-Personal-Use;
+}
+@font-face {
+    font-family: Avergent-Regular-Personal-Use;
+    src: url(./fonts/Avergent-Regular-Personal-Use.ttf);
+}
+h1{
+    font-family: Avergent-Regular-Personal-Use;
+    font-weight: 700;
+    font-size: 50px;
+}
+.color-highliter{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.half-width img{
+    width: 100%;
+}
