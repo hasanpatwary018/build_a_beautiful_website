@@ -8,20 +8,100 @@
     font-family: Avergent-Regular-Personal-Use;
     src: url(./fonts/Avergent-Regular-Personal-Use.ttf);
 }
+section{
+    height: 500px;
+    padding-bottom: 150PX;
+}
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat; 
+}
 h1{
     font-family: Avergent-Regular-Personal-Use;
     font-weight: 700;
     font-size: 50px;
 }
-.color-highliter{
+.orrenge-highliter{
     color: orange;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
     padding-left: 30px;
+    margin-top: 50px;
 }
 .half-width img{
     width: 100%;
+}
+button{
+    background-image: linear-gradient(45deg, tomato, red);
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10PX;
+}
+button:hover{
+    opacity: .5;
+}
+.middle{
+    margin-left: 50px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.width{
+    width: 40%;
+    float: left;
+    margin-right: 100px;
+}
+.width img{
+    width: 100%;
+   
+}
+.dreame{
+    margin-top: 100px;
+}
+.middle a{
+    text-decoration: none;
+   background-image: linear-gradient(90deg, tomato, red);
+   color: white;
+   padding: 5px 10px;
+   display: inline-block;
+   margin-top: 20px;
+
+}
+.e-width{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 40px gray;
+    height: 80%;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.exparience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#web{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
